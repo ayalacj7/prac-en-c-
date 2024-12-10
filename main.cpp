@@ -3,53 +3,67 @@
 using namespace std;
 int main()
 { 
- float num1, num2, suma,resta ,multiplicacion, divicion;
- 
- cout<<"ingresa tu numero 1 para sumar " ;  
-cin >> num1;   
- cout<<"ingresa tu numero 2 para sumar " ;  
-cin >> num2;
 
-suma = num2+num1;
+float cuenta, papas = 20, frijoles = 10, arroz = 10, zote  = 20, cloro = 36, roma = 25, calzoneskalvinklen = 300, chile=20;
 
-cout<<"la suma es: "<<suma<<endl;
-    
-    
-  cout<<"ingresa tu numero 1 para restar " ;  
-cin >> num1;   
- cout<<"ingresa tu numero 2 para restarar " ;  
-cin >> num2;
+    cout<<"¿que va querer?";
+    cout<<"\n 1)papas=20 \n 2)frijoles = 10 \n 3)arroz = 10 \n 4)zote =20 \n 5)cloro= 36 \n 6)roma = 25 \n 7)calzoneskalvinklen = 300 \n 8)chile=20 \n ";
+     cin>>cuenta; 
+     if(cuenta==1){
+         
+         cout<<"escojiste papas :)";
+         
+     }
+     else if(cuenta == 2){
+         cout<<"escojiste frijoles :)";
+     }
+     else if(cuenta == 3){
+         
+        cout<<"escojites arroz" ;
+         
+     }
+   
+     else if(cuenta == 4){
+         
+        cout<<"escojites zote" ;
+         
+     }
+   
+    else if(cuenta == 5){
+         
+        cout<<"escojites cloro" ;
+         
+     }
+     
+    else if(cuenta == 6){
+         
+        cout<<"escojites roma" ;
+         
+     }
+     else if(cuenta == 7){
+         
+        cout<<"escojites calzoneskalvinklen" ;
+         
+     }
 
-resta = num1-num2;
-
-cout<<"la resta es : "<< resta<< endl;
+    else if(cuenta == 7){
+         
+        cout<<"escojites chile" ;
+         
+     }
+   
+   else{
        
-  cout<<"ingresa tu numero 1 para divicion " ;  
-cin >> num1;   
- cout<<"ingresa tu numero 2 para divicion  " ;  
-cin >> num2;
-
-divicion = num1/num2;
-
-cout<<"la divicion es : "<< divicion<< endl;
-          
-  cout<<"ingresa tu numero 1 para multiplicacion " ;  
-cin >> num1;   
- cout<<"ingresa tu numero 2 para multiplicacion  " ;  
-cin >> num2;
-
-multiplicacion = num1*num2;
-
-cout<<"la multiplicacion es : "<< multiplicacion<< endl;
-          
-    
+      cout<<"numero no valido " ; 
        
-    
-    
-    
-    
-    
-
-
+   }
+   
+   
+   
+   
+   
+   
+   
+   
     return 0;
 }
